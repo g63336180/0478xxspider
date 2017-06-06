@@ -250,7 +250,8 @@ class db
             $items_sql .= "`$k`,";
             $values_sql .= "\"$v\",";
         }
-        $sql = "Insert Ignore Into `{$table}` (" . substr($items_sql, 0, -1) . ") Values (" . substr($values_sql, 0, -1) . ")";
+		$sql = "Insert Ignore Into `{$table}` (" . substr($items_sql, 0, -1) . ") Values (" . substr($values_sql, 0, -1) . ")";
+		log::add($sql, 'Warning');
         if ($return_sql) 
         {
             return $sql;
@@ -299,7 +300,7 @@ class db
             $vals_sql[] = implode(",", $vals);
         }
 
-        $sql = "Insert Ignore Into `{$table}`(".implode(", ", $keys_sql).") Values (".implode("), (", $vals_sql).")";
+        $sql = "Insert Into `{$table}`(".implode(", ", $keys_sql).") Values (".implode("), (", $vals_sql).")";
 
         if ($return_sql) return $sql;
         

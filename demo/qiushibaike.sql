@@ -20,12 +20,12 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 
-# Dump of table content
+# Dump of table qiushibaike
 # ------------------------------------------------------------
 
-DROP TABLE IF EXISTS `content`;
+DROP TABLE IF EXISTS `qiushibaike`;
 
-CREATE TABLE `content` (
+CREATE TABLE `qiushibaike` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
   `depth` int(11) DEFAULT NULL,
   `url` varchar(200) DEFAULT NULL,

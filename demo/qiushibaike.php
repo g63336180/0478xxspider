@@ -35,7 +35,7 @@ $configs = array(
     //),
     'export' => array(
         'type' => 'db', 
-        'table' => 'content',
+        'table' => 'qiushibaike',
     ),
     'fields' => array(
         array(

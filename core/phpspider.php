@@ -1582,7 +1582,6 @@ class phpspider
     public function get_html_fields($html, $url, $page) 
     {
         $fields = $this->get_fields(self::$configs['fields'], $html, $url, $page);
-
         if (!empty($fields)) 
         {
             if ($this->on_extract_page) 
@@ -1601,7 +1600,6 @@ class phpspider
                     $fields = $return;
                 }
             }
-
             if (isset($fields) && is_array($fields)) 
             {
                 $fields_num = $this->incr_fields_num();
@@ -1647,6 +1645,9 @@ class phpspider
                     }
                 }
             }
+        } else {
+            var_dump($url);
+            var_dump($fields);
         }
     }
 

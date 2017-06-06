@@ -203,18 +203,18 @@ function save_user_info($worker = null)
 function get_user_queue($key = 'list', $count = 10000)
 {
     // 如果队列为空, 从数据库取一些
-    if (!cache::get_instance()->lsize($key)) 
+    if (!cache::init()->lsize($key)) 
     {
         $sql = "Select `username`, `{$key}_uptime` From `user` Order By `{$key}_uptime` Asc Limit {$count}";
         $rows = db::get_all($sql);
         foreach ($rows as $row) 
         {
             //echo $row['username'] . " --- " . date("Y-m-d H:i:s", $row[$key.'_uptime']) . "\n";
-            cache::get_instance()->lpush($key, $row['username']);
+            cache::init()->lpush($key, $row['username']);
         }
     }
     // 从队列中取出一条数据
-    return cache::get_instance()->lpop($key);
+    return cache::init()->lpop($key);
 }
 
 /**
