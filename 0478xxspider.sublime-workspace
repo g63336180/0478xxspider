@@ -1,0 +1,355 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "cookie.txt",
+			"settings":
+			{
+				"buffer_size": 861,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "demo/xiaomiquan.php",
+			"settings":
+			{
+				"buffer_size": 7252,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 60.0,
+		"last_filter": " install package",
+		"selected_items":
+		[
+			[
+				" install package",
+				"Package Control: Install Package→安装插件"
+			],
+			[
+				"install",
+				"Package Control: Install Package→安装插件"
+			],
+			[
+				"isntall",
+				"Package Control: Install Package→安装插件"
+			],
+			[
+				"inst",
+				"Package Control: Install Package→安装插件"
+			],
+			[
+				"in",
+				"Package Control: Install Package→安装插件"
+			],
+			[
+				"i",
+				"Package Control: Install Package→安装插件"
+			]
+		],
+		"width": 594.0
+	},
+	"console":
+	{
+		"height": 491.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/E/webroot/0478xxspider",
+		"/E/webroot/0478xxspider/demo"
+	],
+	"file_history":
+	[
+		"/C/Users/Administrator/Desktop/mobiel.txt",
+		"/E/webroot/ekooo.cn/wp-content/themes/listable/template-parts/content-page.php",
+		"/E/program/Sublime Text3/Data/Packages/Package Control/Package Control.sublime-settings",
+		"/E/webroot/test/baidu1.html",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/Users/Administrator/Desktop/开发需求1.txt",
+		"/C/Users/Administrator/Downloads/ekooo2017-6-2.sql",
+		"/C/Wnmp/conf/vhosts/ekooo.cn.conf",
+		"/C/Wnmp/conf/pathinfo.conf",
+		"/E/workdocument/server_config.txt",
+		"/E/workdocument/Project/acount.txt",
+		"/E/webroot/ekooo.cn/wp-content/themes/listable/template-parts/content.php",
+		"/E/program/Sublime Text3/Data/Packages/Default/Preferences.sublime-settings",
+		"/E/webroot/ekooo.cn/wp-content/themes/listable/page.php",
+		"/E/webroot/ekooo.cn/wp-content/themes/listable/archive-job_listing.php",
+		"/E/webroot/ekooo.cn/wp-content/themes/listable/index.php",
+		"/E/webroot/ekooo.cn/wp-content/themes/listable/taxonomy-job_listing_category.php",
+		"/E/webroot/ekooo.cn/wp-content/themes/listable/taxonomy-job_listing_tag.php",
+		"/E/webroot/ekooo.cn/wp-content/themes/listable/taxonomy-job_listing_type.php",
+		"/E/webroot/ekooo.cn/wp-content/plugins/wp-job-manager/templates/job-filters.php",
+		"/E/webroot/ekooo.cn/index.php",
+		"/E/webroot/ekooo.cn/wp-includes/template-loader.php",
+		"/E/webroot/ekooo.cn/wp-content/themes/listable/search-job_listing.php",
+		"/E/webroot/ekooo.cn/wp-content/themes/listable/taxonomy-job_listing_region.php",
+		"/E/webroot/ekooo.cn/wp-content/themes/listable/category.php",
+		"/E/webroot/ekooo.cn/wp-includes/ms-default-filters.php",
+		"/E/webroot/ekooo.cn/wp-blog-header.php",
+		"/E/webroot/ekooo.cn/.htaccess",
+		"/C/Users/Administrator/Downloads/enable-php-71.conf",
+		"/C/Users/Administrator/Downloads/pathinfo.conf",
+		"/E/webroot/ekooo.cn/wp-config.php",
+		"/C/Users/Administrator/Downloads/fastcgi.conf",
+		"/C/Wnmp/conf/fastcgi.conf",
+		"/C/Users/Administrator/Downloads/test.ekooo.cn.conf",
+		"/C/Users/Administrator/Downloads/I9169T8I",
+		"/E/webroot/ekooo.cn/wp-content/plugins/jetpack/modules/widget-visibility/widget-conditions.php",
+		"/E/webroot/ekooo.cn/wp-content/plugins/jetpack/modules/infinite-scroll/infinity.php",
+		"/E/webroot/ekooo.cn/a.php",
+		"/E/webroot/ekooo.cn/a.html",
+		"/E/webroot/0478xx/resources/views/themes/default/home/index.blade.php",
+		"/C/Users/Administrator/Desktop/开发需求.txt",
+		"/E/workdocument/Wordpress/ekooo.cn/account.txt",
+		"/E/webroot/0478xx/server.php",
+		"/C/Wnmp/conf/nginx.conf",
+		"/C/Wnmp/conf/vhosts/dailian.tt.conf",
+		"/E/webroot/pythonTest/README.md",
+		"/C/Users/Administrator/Downloads/opencart/tbs.php",
+		"/C/Users/Administrator/Downloads/opencart/locoy_oc.php",
+		"/E/workdocument/Adsense入门/01+Introduction/互联网赚钱之道.txt",
+		"/E/Program Files/米18/2017-5-23.txt",
+		"/C/Users/Administrator/Downloads/第四节的插件/第四节的插件/中文帐号的信息/第四次跳转的域名        waihuii.info/index.html",
+		"/C/Users/Administrator/Downloads/第四节的插件/第四节的插件/中文帐号的信息/第三次跳转的域名     forex9.info/transfer/configureTool.php",
+		"/C/Users/Administrator/Downloads/第四节的插件/第四节的插件/中文帐号的信息/第三次跳转的域名     forex9.info/transfer/common_function.php",
+		"/C/Users/Administrator/Downloads/第四节的插件/第四节的插件/中文帐号的信息/第三次跳转的域名     forex9.info/transfer/pc.txt",
+		"/C/Users/Administrator/Downloads/第四节的插件/第四节的插件/中文帐号的信息/第二次跳转的域名       googlea.info/transfer/pc.txt",
+		"/C/Users/Administrator/Downloads/第四节的插件/第四节的插件/中文帐号的信息/第一次跳转的域名        gg8.info/transfer/my-errors.log",
+		"/C/Users/Administrator/Downloads/第四节的插件/第四节的插件/中文帐号的信息/第一次跳转的域名        gg8.info/transfer/pc.txt",
+		"/C/Users/Administrator/Downloads/第四节的插件/第四节的插件/中文帐号的信息/第一次跳转的域名        gg8.info/transfer/articles/ecommerce.html",
+		"/C/Users/Administrator/Downloads/第四节的插件/第四节的插件/中文帐号的信息/第一次跳转的域名        gg8.info/transfer/articles/ecommerce2.html"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 92.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"utf8mb4",
+			"utf8mb4_unicode_ci",
+			"map",
+			"the_content",
+			"debug",
+			"search_jobs",
+			"template_redirect",
+			":$]",
+			"1",
+			"] ",
+			"dailian",
+			"80",
+			"//",
+			"root"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"utf8",
+			"utf8_general_ci"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "cookie.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 861,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								861,
+								861
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "demo/xiaomiquan.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7252,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1415,
+								1415
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 540.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "0478xxspider.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"E:\\webroot\\0478xx\\0478xx.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 316.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
